@@ -1,0 +1,13 @@
+services:
+  mysql:
+    image: mysql:latest
+    # IMPROVEMENT: Store the password in a secret manager such as Vault (Hashicorp)/Secrets Manager (AWS/GCP)
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: squid_task
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
