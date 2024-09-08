@@ -6,6 +6,10 @@ I used [NestJS](https://docs.nestjs.com/) to quickly set up a backend server, wh
 
 I've actually never used NestJS much (I've used very similar libraries instead), so this may not necessarily be best practices! But I quite like NestJS.
 
+## Missing (at this time):
+
+- Unit tests!
+
 ## How to Run Locally
 
 1. Run `docker-compose up --build` at the root of this project. This will create the `businesses` table with the given sample data. This also starts up the MySQL server on Port **3306**.
