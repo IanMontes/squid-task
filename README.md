@@ -9,6 +9,8 @@ I've actually never used NestJS much (I've used very similar libraries instead),
 ## Missing (at this time):
 
 - Unit tests!
+  - Usually I do TDD, but this time I wanted to get a working project ASAP. If I have time (writing this on a Sunday), I'll try to get unit tests added!
+  - If you're reading this though, I didn't get the unit tests added in time.
 
 ## How to Run Locally
 
