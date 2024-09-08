@@ -87,7 +87,6 @@ export class BusinessDiscoveryService {
     if (businessType) {
       businessType = this.capitalizeFirstLetter(businessType);
       query = query.where('businesses.type = :type', { type: businessType });
-      console.log('query', query.getQuery());
     }
 
     return await query.getMany();
